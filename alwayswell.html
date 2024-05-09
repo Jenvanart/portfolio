@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Work: AlwaysWell</title>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/design-system.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b98c5d47fd.js" crossorigin="anonymous"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+    
+<body>
+<main>
+
+<!-- Navigation Header -->
+<div class="content-container">
+    <header class="header">
+        <div class="logo-icon">
+            <a href="index.html"><img src="images/logo.svg" alt="portfolio logo" width="216" height="auto"></a>
+        </div>
+            <div class= "navigation-main">
+               <span><a class="horizontal" href="index.html" title= "Work" >Work</a></span>
+               <span><a class="horizontal" href="about.html" title= "About" >About</a></span>
+               <span><a class="horizontal" href="contact.html" title= Contact" >Contact</a></span>
+               <span><a href="https://www.instagram.com/jen_van_art/" class="horizontal-social"><i class="fa-brands fa-instagram"></i></a></span>
+               <span><a href="https://www.behance.net/JASutherland" class="horizontal-social"><i class="fa-brands fa-behance"></i></a></span>
+            </div>
+        </div>
+<!-- Mobile Navigation -->
+        <div class= "navigation-mobile">
+            <span><h4><a class="horizontal" href="index.html" title= "Work" >Work</a></span>
+            <span><a class="horizontal" href="about.html" title= "About" >About</a></span>
+            <span><a class="horizontal" href="contact.html" title="Contact" >Contact</a></span>
+        </div>
+            <a href="javascript:void(0);" class="mobile-navigation-icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+    </header>
+</div>
+
+<!-- Hero section -->
+<div class="flex-container hero-color-fix">
+    <div class="row">
+        <div class="eight columns">
+            <h4>UX Design</h4>
+            <h2>AlwaysWell</h2>
+            <p>AlwaysWell is a mobile application that aims to integrate pharmaceutical medication tracking with patients’ alternative care modalities, increasing adherence to care plans. The custom illustrations, colour palette, typography and layout were chosen to be friendly and helpful for users as they navigate the application effectively. </p>
+        </div>
+<!-- slideshow in hero -->
+        <div class="four columns">
+            <div class="slideshow-margin">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/alwayswell-index.jpg" alt="multiple screens of the mobile mockup, showing the login and main screen" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/alwayswell-slideshow2.jpg" alt="a person interacting with the application, logging in on thier mobile device" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/alwayswell-slideshow3.jpg" alt="a person interacting with the application, logging thier mdeication on the main screen of the mobile application" style="width:100%">
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- project slides-->
+<article class="flex-container-margin"> 
+    <img src="images/alwayswell-p1.jpg" alt="a visual representation of the sitemap for this application" width="100%">
+</article>
+<article class="flex-container"> 
+    <img src="images/alwayswell-p2.jpg" alt="a visual representation of the userflow and wireframe" width="100%">
+</article>
+<article class="flex-container"> 
+    <img src="images/alwayswell-p5.jpg" alt="the user persona for this project" width="100%">
+</article>
+<article class="flex-container"> 
+    <img src="images/alwayswell-p3.jpg" alt="clearspace indication around the applications logo" width="100%">
+</article>
+<article class="flex-container"> 
+    <img src="images/alwayswell-p4.jpg" alt="the branding color pallette for the application" width="100%">
+</article>
+<article class="flex-container"> 
+    <img src="images/alwayswell-p6.jpg" alt="mobile screens showing the application login, homepage screen and interaction warning screen" width="100%">
+</article>
+<br>
+<br>
+
+<!-- footer -->
+<div class="content-container">
+    <footer class="footer">      
+        <div>
+            <h2>You made it!</h2>
+            <p>Hey, you made it to the bottom of this site!<br> Thank you for looking at all of my work,  <a href="portfolio.html">here's a final project you might like</a> and some other places where you can keep exploring & get in touch. </p>
+            <div class="navigation-footer">
+                <a href="https://www.instagram.com/jen_van_art/" class="horizontal-social"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.behance.net/JASutherland" class="horizontal-social"><i class="fa-brands fa-behance"></i></a>
+                <a href="mailto:jensutherland@live.com" class="horizontal-social"><i class="fa-regular fa-envelope"></i></a>
+                <span><i class="fa-regular fa-face-smile"></i>
+                </span>
+            </div> 
+        </div>
+    </footer>
+    <br>
+    <br>
+</div>
+    
+
+<!-- Navigation script -->
+<script>
+   function myFunction() {
+    var x = document.querySelector(".navigation-mobile");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+  </script>
+
+<!-- Slider Script  -->
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+
+</main>   
+</body>
+</html>
+<!DOCTYPE html>
